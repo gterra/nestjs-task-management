@@ -71,3 +71,11 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
+
+## docker run --name mongo -p 27017:27017 -d mongo
+
+## docker ps -a
+
+## docker start **CONTAINER ID**
